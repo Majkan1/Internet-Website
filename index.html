@@ -26,21 +26,52 @@
           <h3 id = "About-me">O mnie</h3>
           <p>Jestem studentem 2 roku Teleinformatyki na Politechnice Wrocawskiej.</p>
           <p>Interesuje sie programowanie frontendowym oraz backendowym</p>
-          <p>W przysłościu chciałbym samodzielnie tworzyć strony internetowe oraz wszysktim się tam zajmywać.<p>
+          <p>W przysłościu chciałbym samodzielnie tworzyć strony internetowe oraz wszysktim się tam zajmywać.</p>
           <a href = "https://majkan1.github.io/CV/">Moje CV</a>  
           </section>
         <section class = "Moje-projekty">
           <h2>Moje projekty</h2>
-          <div>
+          <div class="Projekty">
             <div class = "Kalkulator">
-              <h3>Kalkulator</h4>
+              <a href = "https://majkan1.github.io/Kalkulator/"><h3>Kalkulator</h3></a>
                 <p>Jest to prosty projekt zrobiony calkowicie w JavaScripcie.</p>
                 <p>Pozwala on uytkownikowi na proste dzialania matematyczne takie jak dodawanie ,odejmowanie ,dzielenie czy mnożenie</p>
                 <p>Dzięki niemu nauczyłem się jak dzięki funkcjom można tworzyć niezwykłe rzeczy </p>
             </div>
+            <div class = "ToDoApp">
+              <a href = "https://majkan1.github.io/Toapp/"><h3>Lista Zadań</h3></a>
+                <p>Jest to  projekt zrobiony w Reactie .</p>
+                <p>Pozwala on użytkwnikowi na dodanie zadania do naszej listy, usunięcie jej, usunięcie wszystkich elementów, zaznaczenie ilości zadań do wykonania oraz przekreślenie wykonanego przez nas zadania.</p>
+                <p>Dzięki niemu nauczyłem się jak działa useState, poprawne renderowanie jak działa wzajemna relacja między elemnentami oraz naspisywanie się elemnetów.</p>
+            </div>
+            <div class = "Aplikacja-pogodowa">
+              <a href = "https://majkan1.github.io/Weather-app/"><h3>Aplikacja-pogodowa</h3></a>
+                <p>Jest to  projekt zrobiony całkowicie w Reactie .</p>
+                <p>Pozwala on użytkwnikowi na wyszukanie pogody w każdym mieście oraz pań
+                stwie na świecie. Pokazuje on obecną temperaturę oraz podmuchy wiatru</p>
+                <p>Dzięki temu nauczyłem się jak poprawnie korzystać z useState , useEffect
+                  pobierać Api korzystając z fetch oraz zrozumiałem sens pobierania.
+                </p>
+            </div>
           </div>
         </section>
-
+        <section class = "Napisz-do-mnie">
+          <div>
+            <div class = "message">
+              <label for = "name">Imię</label>
+              <input id = "name" type = "text" placeholder="Jan Kowalski">
+              <label for = "email">Email</label>
+              <input id = "email" type = "email" placeholder="jankowalski@gmail.com">
+              <label for = "text1">Wiadomość</label>
+              <textarea id = "text1" placeholder="Piszę do ciebie bo chce cię zatrudnić"></textarea>
+            </div>
+            <div></div>
+          </div>
+        </section>
+        <section class = "Social-media">
+          <a href = https://github.com/Majkan1>Github</a>
+          <a>Gmail</a>
+        </section>
       </main>
       <script src = "ola.js"></script>
     </body>

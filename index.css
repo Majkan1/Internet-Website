@@ -51,5 +51,63 @@ p{
 
 .Kalkulator{
   width: 200px;
-  height:150px;
+  height:300px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.Projekty{
+  display: flex;
+  flex-direction: row;
+  gap:20px;
+}
+
+.ToDoApp{
+  border:1px solid black;
+  text-align: center;
+  width: 200px;
+  height: auto;
+}
+
+.Aplikacja-pogodowa{
+  border:1px solid black;
+  text-align: center;
+  width: 200px;
+  height: auto;
+}
+
+.Moje-projekty{
+  text-align: center;
+  padding: 15px;
+  border: 1px solid black;
+  width:700px;
+  margin-top: 20px;
+  align-items: center;
+  margin-left: 400px;;
+}
+
+.message{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  height: auto;
+  width: 500px;
+  margin-top: 20px;
+}
+
+#name,
+#email{
+  width: 250px;
+  height: 30px;
+}
+
+#text1{
+  width:450px;
+  height:30px;
+}
+
+.Social-media{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
