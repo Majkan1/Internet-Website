@@ -1,15 +1,26 @@
+
+body{
+    margin:0;
+    background-color:rgb(222,222,222);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 header{
     display:flex;
     justify-content: flex-end;
     background-color: black;
     height:50px;
-    width:auto;
+    width:100%;
 
 }
 
 nav{
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap:20px;
+    margin-right: 15px;
+    padding: 10px;
 }
 
 a{
@@ -17,5 +28,28 @@ a{
 }
 
 .button1{
-    
+    background-color: black;
+    color:yellow;
+    border:none;
+}
+
+h1{
+    color:blue;
+}
+
+.Welcome{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+p{
+  margin: 8px;
+}
+
+.Kalkulator{
+  width: 200px;
+  height:150px;
 }
