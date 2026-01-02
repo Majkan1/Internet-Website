@@ -83,7 +83,7 @@ p{
   width:700px;
   margin-top: 20px;
   align-items: center;
-  margin-left: 400px;;
+  margin-left: 400px;
 }
 
 .message{
@@ -110,4 +110,5 @@ p{
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-left: 400px;
 }
