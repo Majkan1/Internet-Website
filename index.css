@@ -1,12 +1,21 @@
 header{
     display:flex;
     justify-content: flex-end;
-    color:darkslategrey;
     background-color: black;
     height:50px;
     width:auto;
 
 }
-p{
+
+nav{
+    display:flex;
+    justify-content: space-around;
+}
+
+a{
     color:red;
+}
+
+.button1{
+    
 }
