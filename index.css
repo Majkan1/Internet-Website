@@ -93,6 +93,7 @@ p{
   height: auto;
   width: 500px;
   margin-top: 20px;
+  margin-bottom: 15px;
 }
 
 #name,
@@ -111,4 +112,25 @@ p{
   flex-direction: row;
   align-items: center;
   margin-left: 400px;
+}
+
+.whole{
+  display: flex;
+  margin-left: 500px;
+  flex-direction: column;
+}
+
+.Links{
+  margin-left: 235px;
+  gap:30px;
+}
+
+.p{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  width: auto;
+  color: aliceblue;
+  margin: 0;
+  margin-top: 15px;
 }
