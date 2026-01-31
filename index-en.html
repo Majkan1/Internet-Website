@@ -10,26 +10,32 @@
     <link rel="stylesheet" href="index.css">
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="#About-me">About me</a>
-        <a href="#Moje-projekty">My projects</a>
-        <a href="#contact">Contact me</a>
-      </nav>
-      <button class="button1" id="langToggle" type="button">PL</button>
+    <header class="site-header">
+      <div class="container header-inner">
+        <nav class="site-nav">
+          <a href="#About-me">About me</a>
+          <a href="#Moje-projekty">My projects</a>
+          <a href="#contact">Contact me</a>
+        </nav>
+        <button class="button1" id="langToggle" type="button">PL</button>
+      </div>
     </header>
 
-    <main>
-      <section class="Welcome">
-        <h1>Hi, I am <br> Mikolaj Michalak</h1>
-        <h3 id="About-me">About me</h3>
-        <p>I am a 2nd-year Telecommunications and IT student at Wroclaw University of Science and Technology.</p>
-        <p>I am interested in both frontend and backend development.</p>
-        <p>In the future I want to build websites end-to-end and handle everything around them.</p>
-        <a href="https://majkan1.github.io/CV/">My CV</a>
+    <main class="container">
+      <section class="Welcome section">
+        <div class="hero-card">
+          <h1>Hi, I am <br> Mikolaj Michalak</h1>
+          <h3 id="About-me">About me</h3>
+          <p>I am a 2nd-year Telecommunications and IT student at Wroclaw University of Science and Technology.</p>
+          <p>I am interested in both frontend and backend development.</p>
+          <p>In the future I want to build websites end-to-end and handle everything around them.</p>
+          <div class="cta-row">
+            <a class="btn btn--primary" href="https://majkan1.github.io/CV/">My CV</a>
+          </div>
+        </div>
       </section>
 
-      <section class="Moje-projekty" id="Moje-projekty">
+      <section class="Moje-projekty section" id="Moje-projekty">
         <h2>My projects</h2>
         <div class="Projekty">
           <div class="Kalkulator">
@@ -55,10 +61,10 @@
         </div>
       </section>
 
-      <section class="Napisz-do-mnie" id="contact">
+      <section class="Napisz-do-mnie section" id="contact">
         <div class="whole">
           <div class="Links">
-            <a href="https://github.com/Majkan1">GitHub</a>
+            <a class="btn" href="https://github.com/Majkan1">GitHub</a>
           </div>
         </div>
       </section>
