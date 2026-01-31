@@ -1,0 +1,47 @@
+Mikołaj Michalak
+Email: majkanart117@gmail.com GitHub: https://github.com/Majkan1
+________________________________________
+SUMMARY
+Junior Front-End Developer with strong skills in React, JavaScript, and Node.js. Experienced in building dynamic user interfaces, form handling, API integrations, and asynchronous programming. Passionate about modern web technologies, clean code, and scalable app architecture. Currently studying Computer Science at Wrocław University of Science and Technology. Seeking international internship opportunities in the USA or EU to grow professionally, contribute to real-world products, and collaborate in a high-performance engineering team.
+________________________________________
+TECHNICAL SKILLS
+Front-End: React, JavaScript (ES6+),TypeScript, HTML5, CSS3
+Backend: Node.js, 
+Tools & DevOps: Git, GitHub, npm, Vite
+________________________________________
+PROJECT EXPERIENCE
+Weather App – React | API | Async/Await
+A fully functional weather application using Fetch API and async/await.
+Key responsibilities & achievements:
+•	Integrated external weather API to fetch real-time data.
+•	Implemented search, dynamic UI updates, error handling, and loading states.
+•	Built reusable React components for clean architecture.
+•	Improved performance by optimizing renders and implementing memoization.
+Tech: React, JavaScript, CSS, API, JSON, Git
+________________________________________
+Todo App – React | State Management
+A fully functional task management application built with React.
+Key responsibilities & achievements:
+•	Implemented functionality to add, delete, and mark tasks as completed.
+•	Managed application state to handle user input and dynamic task updates.
+•	Built reusable React components for a clean and maintainable architecture.
+•	Enabled real-time UI updates without page reloads.
+•	Applied basic validation and conditional rendering for better UX.
+Tech: React, JavaScript, CSS, Git
+________________________________________
+EDUCATION
+Wrocław University of Science and Technology (PWR)
+Bachelor’s Degree — Telecommunication and Computer Science
+2023 – Present
+47th High School, Warsaw, Poland
+Graduated: 2023
+________________________________________
+SOFT SKILLS
+Analytical Thinking • Teamwork • Communication • Quick Learning • Problem Solving • Adaptability
+________________________________________
+LANGUAGES
+Polish: Native
+English: B2–C1 (Fluent in speaking and writing)
+________________________________________
+CERTIFICATION
+•	FreeCodeCamp (Responsive web design)
